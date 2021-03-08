@@ -6,3 +6,5 @@ We plan to create a website dedicated for playing math games and teaching math b
 The project goal is to help users grow interests in mathematics in a game fashion and also learn more about math along the way.
 
 Hope the beauty of Math can be shown in these fun awesome games. Yay!
+
+
