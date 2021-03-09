@@ -30,15 +30,19 @@ body {
   background-color: var(--game-name-background-color);
 }
 
+#main {
+  grid-column: 1 /-1;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
 #seriesBar {
   grid-column: 1 /2;
-  grid-row: 3/-2;
   background-color: var(--seriesBar-background-color);
 }
 
 #mainContent {
   grid-column: 2 /-1;
-  grid-row: 3/-2;
   background-color: var(--main-background-color);
 }
 
@@ -72,3 +76,16 @@ header {
   grid-column: -2 /-1;
 }
 /* #region  */
+
+/* Jay */
+
+
+/* Jay End */
+
+/* Steve */
+
+/* Steve End */
+
+/* Jessie */
+
+/* Jessie End */
