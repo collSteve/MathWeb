@@ -1,0 +1,91 @@
+:root {
+  --body-background-color: darkgrey;
+  --nav-background-color: MidnightBlue; /* back ground color for header and footer */
+  --game-name-background-color: MidnightBlue;
+  --seriesBar-background-color: grey;
+  --main-background-color: darkgrey;
+}
+
+/*#region first grid: body grid alignment + background color of 5 mian sections */
+body {
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* aside:main = 1:2 */
+  grid-template-rows: 0.5fr 1fr minmax(50vh, auto) minmax(30vh,auto);
+  row-gap: 0.5px;
+
+  background-color: var(--body-background-color);
+}
+
+#header {
+  grid-column: 1 /-1;
+  grid-row: 1/2;
+  background-color: var(--nav-background-color);
+}
+
+#GameNameBand {
+  text-align: left;
+  color: white;
+  grid-column: 1 /-1;
+  grid-row: 2/3;
+  background-color: var(--game-name-background-color);
+}
+
+#main {
+  grid-column: 1 /-1;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+#seriesBar {
+  grid-column: 1 /2;
+  background-color: var(--seriesBar-background-color);
+}
+
+#mainContent {
+  grid-column: 2 /-1;
+  background-color: var(--main-background-color);
+}
+
+footer {
+  grid-column: 1 /-1;
+  grid-row: -2/-1;
+  background-color: var(--nav-background-color);
+}
+/*#endregion header grid*/
+header {
+  color: white;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+#dropDownNav {
+  background: black; /*debug purpose*/
+  display: inline-block;
+  grid-column: 1 /2;
+}
+
+#logo {
+  background: brown; /*debug purpose*/
+  display: inline-block;
+  grid-column: 2 /-2;
+}
+
+#empty {
+  display: inline-block;
+  grid-column: -2 /-1;
+}
+/* #region  */
+
+/* Jay */
+
+
+/* Jay End */
+
+/* Steve */
+
+/* Steve End */
+
+/* Jessie */
+
+/* Jessie End */
